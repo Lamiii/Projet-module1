@@ -1,0 +1,200 @@
+/*GENERAL*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	list-style: none;
+}
+
+
+.headerAcc{
+	width: 1250px;
+	margin: 0 auto;
+	padding: 0 10px;
+
+}
+
+
+
+a {
+	text-decoration: none;
+	color: green;
+}
+
+a:hover{
+	text-decoration: none;
+	color: orange;
+
+}
+
+
+/*HEADER*/
+
+header{
+	height: 800px;
+    background: url(images/image4.jpg) no-repeat;
+    background-size: cover ;
+   
+}
+
+header h1{
+	color: darkorange;
+	margin-top:  28px;
+	margin-left: -20px;
+}
+
+.icon{
+	height: 50px;
+	width: 50px;
+	margin: 20px;
+
+}
+
+header h1, .icon{
+	float: left;
+}
+
+header h2{
+    font-size: 50px;
+	color:;
+	text-align: center;
+	padding: 100px;
+	color: #FD9C02;
+}
+
+header nav{
+    float: right;
+    margin-top: 40px;
+}
+header nav ul li{
+	display: inline-block;
+	float: left;
+}
+header nav ul li a{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.text{
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 150px 0 40px 0;
+	margin-bottom: 20px;
+}
+/*.button-1{
+	display: block;
+	width: 100px;
+	height: 50px;
+	background:  darkgreen;
+	color: #fff;
+	font-size: 20px;
+	margin: 0 auto;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 3px;
+	/*box-shadow: 8px 8px 8px green;
+}
+.button-1:hover{
+	background: #B80101;
+	color: #fff; */
+}
+#Present{
+	padding: 30px 0;
+	background-color:  #efefef;
+}
+#Present h2{
+	width: 500px;
+	margin-top: 20px;
+	margin-left: 425px;
+	text-align: center;
+	
+}
+#Present article{
+   background: #efefef;
+}
+#Contacts{
+	padding: 60 0;
+	text-align: center;
+}
+#Contacts h3{
+	width: 400px;
+    text-transform: uppercase;
+    margin: 0 auto 20px auto;
+    border-bottom: 1px solid green;
+    padding-bottom: 20px;
+}
+form{
+	margin: 60px 0 20px 0;
+}
+label{
+	font-weight: bold;
+	font-size: 20px;
+	margin-right: 10px;
+	color: #777;
+}
+
+input[type="text"]{
+	padding: 10px;
+	font-size: 20px;
+	margin-right: 20px;
+	border: 2px solid #ddd;
+	border-radius: 3px;
+}
+.button{
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 11px;
+	background-color: green;
+	border-style: none;
+	border-radius: 3px;
+}
+.button:hover{
+	color: #fff;
+	background-color: #444;
+}
+footer{
+	height: 200px;
+	background-color: #444;
+
+}
+
+footer h4{
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+footer strong{
+	color: white;
+	text-align: center;
+	
+}
+.copyright{
+	text-align: center;
+	font-weight: bold;
+	color: #777;
+	padding-top: 0px;
+}
+#Discovery{
+	background: ;
+	height: 1650px;
+
+}
+#Discovery h4{
+   text-align: center;
+   padding: 20px;
+}
+#Discovery img{
+width:500px;
+height: 400px;
+}
+#Discovery p{
+	height: 90px;
+	width: 450px;
+}
+
+
